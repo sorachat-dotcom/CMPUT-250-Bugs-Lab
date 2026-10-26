@@ -177,7 +177,7 @@ MonoBehaviour:
     rgba: 4278255486
   XBound: 3.5
   YBound: 4.5
-  MaxLives: 100
+  MaxLives: 3
   BlockScoreAmount: 100
   ball: {fileID: 1614312232}
   WinDisplay: {fileID: 1201460189}
@@ -190,7 +190,7 @@ MonoBehaviour:
   ScoreText: 'Score: '
   AudioSource: {fileID: 519420033}
   BlockBreak: {fileID: 8300000, guid: 52b62b4b15d8543b19de542da889fc2d, type: 3}
-  BallLost: {fileID: 8300000, guid: d9fabd0d2394d429ea557b06dbd9a41b, type: 3}
+  BallLost: {fileID: 8300000, guid: 335691a6a77134a8088b62c8864c4b93, type: 3}
   BallBounce: {fileID: 8300000, guid: d9fabd0d2394d429ea557b06dbd9a41b, type: 3}
 --- !u!20 &519420031
 Camera:
@@ -227,7 +227,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -270,8 +270,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0
-  m_Pitch: 1.5
+  m_Volume: 0.5
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -744,10 +744,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -846,7 +846,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5827232e4dfa64596bb26d9e25774ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
+  Speed: 5
 --- !u!65 &1614312233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1052,7 +1052,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 78b1a295128724cb59858217052f0f4a, type: 3}
-  m_Color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
